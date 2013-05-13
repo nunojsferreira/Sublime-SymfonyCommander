@@ -160,5 +160,27 @@
         "args": {
             "path": ""
         }
+    },
+    {
+        "caption": "SymfonyCommander doctrine:generate:entities Namespace",
+        "command": "symfony_commander_execute_arguments",
+        "args": {
+            "command": "doctrine:generate:entities",
+            "arguments": "AcmeDemoBundle"
+        }
+    },
+    {
+        "caption": "SymfonyCommander doctrine:schema:update --force",
+        "command": "symfony_commander_execute",
+        "args": {
+            "command": "doctrine:schema:update --force"
+        }
+    },
+    {
+        "caption": "SymfonyCommander swiftmailer:spool:send (Single mail --env=dev)", 
+        "command": "symfony_commander_execute", 
+        "args": {
+            "command": "swiftmailer:spool:send --message-limit=1 --time-limit=10 --env=dev"
+        }
     }
 ]
