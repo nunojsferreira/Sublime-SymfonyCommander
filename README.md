@@ -22,6 +22,8 @@ It provides the following features:
 - Doctrine: Clear result cache
 - Doctrine: Clear query cache
 - Doctrine: Clear meta cache
+- Doctrine: Generate Entities
+- Doctrine: Update schema
 - Run testcases in Sublime Text
 
 More commands are on the way.
